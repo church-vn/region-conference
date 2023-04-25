@@ -468,7 +468,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   position: relative;
 }
-
+@media screen and (max-width: 768px) {
+  #intro {
+    height: 675px !important;
+  }
+}
 #intro:before {
   content: "";
   background: rgba(6, 12, 34, 0.8);
